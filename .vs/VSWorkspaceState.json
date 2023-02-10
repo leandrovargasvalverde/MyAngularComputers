@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\.angular",
-    "\\src"
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\card"
   ],
+  "SelectedNode": "\\src\\app\\card\\card.component.html",
   "PreviewInSolutionExplorer": false
 }
