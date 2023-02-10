@@ -5,7 +5,8 @@
 
   .container {
     display: block;
-    width: 70%;
+    width: 100%;
+    height: 0%;
     padding: 5px;
   }
   
@@ -13,7 +14,7 @@
     border: 1px solid black;
     float: left;
     /*setting width for each and every card element as well as -10px for removing the margin width for 5 elements*/
-    width: calc( 100% / 5 - 10px);
+    width: calc( 100% / 5 - 1px);
   }
   
   

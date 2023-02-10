@@ -22,6 +22,17 @@ export const computersData = [
         Precio: "Precio: ¢298,000 IVAI",
       },
       {
+        Nombre: "DELL LATITUDE E7480",
+        Procesador: "Procesador: i7-6650U",
+        Graficos: "Graficos: Intel® UHD",
+        Pantalla: "Pantalla: 17,0 pulgadas, HD",
+        Memoria: "Memoria: 8GB",
+        Almacenamiento : "Almacenamiento: 500GB-SSD",
+        OS: "OS: Windows 10 Pro",
+        Imagen: "https://www.intelec.co.cr/image/cache/catalog/catalogo/Portatiles/DEL7480I78256W10P-800x800w.jpg.webp",
+        Precio: "Precio: ¢298,000 IVAI",
+      },
+      {
         Nombre: "Hewlett Packard 3US71AA",
         Procesador: "Procesador: AMD Ryzen™ 5 5600x",
         Graficos: "Graficos: RTX 2060",

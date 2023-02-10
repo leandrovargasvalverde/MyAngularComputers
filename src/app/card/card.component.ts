@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component,EventEmitter, Input, Output } from '@angular/core';
 import {Computer} from 'src/model/computer.model';
 
 @Component({
@@ -11,4 +11,12 @@ export class CardComponent {
  @Input()
  computer!: Computer
 
+ @Output()
+ computerSelect = new EventEmitter<Computer>();
+
+ onCardClicked()
+ {
+  console.log("Card onCardClicked");
+  this.computerSelect.emit(this.computer);
+ }
 }
